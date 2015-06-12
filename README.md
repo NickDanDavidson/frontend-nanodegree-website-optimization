@@ -1,29 +1,21 @@
 #Nick Davidson's Website Optimization Project
 ---------------------------------------------
 
-##Steps to run project successfully
+##About the Project
 
-I did not know how to get my site onto the public internet except for publishing it or using ngrok to tunnel it locally. So I opted for using ngrok because that seemed the best option.
+First I was given a webpage that needed improvement. I used knowledge about the Critical Rendering Path to optimize the page for performance and loading speed. Then I was given a fake pizza business site that was experiencing scrolling "jank." I used knowledge about how browsers render webpages to optimize the scrolling animation to better than 60 frames per second.
+
+##Steps to run project successfully
 
 ###PageSpeed
 
-- If you do not have ngrok, it is available as a node module. At your terminal, type npm install ngrok -g (or go here for more details: https://www.npmjs.com/package/ngrok).
+- Open the [live page](https://nickdandavidson.github.io/frontend-nanodegree-website-optimization) in your favorite browser.
 
-- If you do not have ngrok, go here for instructions on how to install it: https://ngrok.com/.
-
-- Once you have ngrok installed, open a local server in my project folder at your terminal: python -m SimpleHTTPServer.
-
-- On a separate tab, type ngrok 8000 (or whatever port your computer is listening on).
-
-- Find the forwarding URL that your ngrok tab displays and type it in your browser's search bar.
-
-- You should arrive at index.html.
-
-- Then in a separate browser tab, go to https://developers.google.com/speed/pagespeed/insights/ and type in the same URL that you used to open index.html. This should show my PageSpeed Insights scores. For comparison, my tests say Mobile: 94/100 and Desktop: 96/100. Please let me know if there is a discrepancy.
+- Then in a separate browser tab, go to [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and type in the same URL that you used to open the live page. This should show my PageSpeed Insights scores.
 
 ###Pizza.html
 
-- Open views/pizza.html in your browser. You do not need to use the ngrok tunnel and local server (I'm sure you know that - sorry for any redundancy).
+- Open the [pizza page](https://nickdandavidson.github.io/frontend-nanodegree-website-optimization/views/pizza.html) in your browser.
 
 - Open DevTools and navigate to the Timeline.
 
