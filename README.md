@@ -5,26 +5,6 @@
 
 First I was given a webpage that needed improvement. I used knowledge about the Critical Rendering Path to optimize the page for performance and loading speed. Then I was given a fake pizza business site that was experiencing scrolling "jank." I used knowledge about how browsers render webpages to optimize the scrolling animation to better than 60 frames per second.
 
-##Steps to run project successfully
-
-###PageSpeed
-
-- Open the [live page](https://nickdandavidson.github.io/frontend-nanodegree-website-optimization) in your favorite browser.
-
-- Then in a separate browser tab, go to [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and type in the same URL that you used to open the live page. This should show my PageSpeed Insights scores.
-
-###Pizza.html
-
-- Open the [pizza page](https://nickdandavidson.github.io/frontend-nanodegree-website-optimization/views/pizza.html) in your browser.
-
-- Open DevTools and navigate to the Timeline.
-
-- Switch on Profile JS and Paint.
-
-- Press the record button at the top left, scroll a bit, then press the record button again to view the record.
-
-- Once you have reviewed the scrolling records, find the pizza resize button, press the record button again, click the resize button a few times, then press the record button again to view the record.
-
 
 ##Optimizations I made
 
