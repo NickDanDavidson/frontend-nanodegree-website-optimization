@@ -1,4 +1,4 @@
-#Nick Davidson's Website Optimization Project
+#Website Optimization Project
 ---------------------------------------------
 
 ##About the Project
